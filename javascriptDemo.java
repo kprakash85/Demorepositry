@@ -15,6 +15,8 @@ public class javascriptDemo {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		
+		System.out.println("WELCOME IN JavaScript ");
+
 		JavascriptExecutor js =(JavascriptExecutor)driver;
 		
 		WebElement male = driver.findElement(By.xpath("//input[@id='gender-radio-1']"));
